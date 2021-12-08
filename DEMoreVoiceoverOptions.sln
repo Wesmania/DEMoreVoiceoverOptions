@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DEReversePsychVO", "DEReversePsychVO.csproj", "{2DA48ED0-FBD1-4405-8041-FBD54BAE0D74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DEMoreVoiceoverOptions", "DEMoreVoiceoverOptions.csproj", "{2DA48ED0-FBD1-4405-8041-FBD54BAE0D74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

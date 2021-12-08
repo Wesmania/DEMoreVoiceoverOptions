@@ -2,9 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <AssemblyName>DEReversePsychVO</AssemblyName>
-    <Description>My first plugin</Description>
-    <Version>1.0.0</Version>
+    <AssemblyName>DEMoreVoiceoverOptions</AssemblyName>
+    <Description>More voiceover options for Disco Elysium</Description>
+    <Version>0.5.0</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <LangVersion>9.0</LangVersion>
   </PropertyGroup>
@@ -16,19 +16,22 @@
 
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>\\VBOXSVR\vagrant\DE\DE\unhollowed\Assembly-CSharp.dll</HintPath>
+      <HintPath>..\DE\unhollowed\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>\\VBOXSVR\vagrant\DE\DE\unhollowed\Assembly-CSharp-firstpass.dll</HintPath>
+      <HintPath>..\DE\unhollowed\Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="DialogueSystem">
-      <HintPath>\\VBOXSVR\vagrant\DE\DE\unhollowed\DialogueSystem.dll</HintPath>
+      <HintPath>..\DE\unhollowed\DialogueSystem.dll</HintPath>
     </Reference>
     <Reference Include="DialogueSystemSupportI2">
-      <HintPath>\\VBOXSVR\vagrant\DE\DE\unhollowed\DialogueSystemSupportI2.dll</HintPath>
+      <HintPath>..\DE\unhollowed\DialogueSystemSupportI2.dll</HintPath>
     </Reference>
     <Reference Include="Il2Cppmscorlib">
-      <HintPath>\\VBOXSVR\vagrant\DE\DE\unhollowed\Il2Cppmscorlib.dll</HintPath>
+      <HintPath>..\DE\unhollowed\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\DE\unhollowed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>
