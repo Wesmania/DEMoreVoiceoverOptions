@@ -23,7 +23,5 @@ VO, but not full NPC VO. In other words, Reverse Psychological VO = Classic VO
 
 * "Character" is loosely defined by the game. If there's e.g. a narrator line
   in overridden character's dialogue, voiceover for that line will be
-  overridden as well. I don't know if it can be improved.
-* This is an early mod version and very few characters are added for now.
-  Configuration file describes how to add more overrides. Feel free to help me
-  fill the list, or figure out a way to extract actor IDs automatically!
+  overridden as well. From what I've checked it can't be improved, the game
+  does not keep the information on what voice is actually saying a line.
